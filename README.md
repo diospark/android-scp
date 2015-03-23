@@ -6,6 +6,6 @@ Current version: ```0.2-beta```
 * SCP format support
 * Downloading files using QR-codes
 * Scale tool  
+
 #### License:
 MIT
-=======
