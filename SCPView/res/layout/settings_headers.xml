@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<header
+		 android:fragment="ua.stu.view.fragments.SettingsColorFragment"
+		 android:icon="@drawable/settings_colors"
+		 android:summary="@string/settings_colors_summary"
+		 android:title="@string/settings_colors_title">
+	</header>
+	
+	<header
+		 android:fragment="ua.stu.view.fragments.SettingsModeFragment"
+		 android:icon="@drawable/settings_mode"
+		 android:summary="@string/settings_mode_summary"
+		 android:title="@string/settings_mode_title">
+	</header>
+	
+	<header
+		 android:fragment="ua.stu.view.fragments.SettingsFilePathsFragment"
+		 android:icon="@drawable/file_chooser_default"
+		 android:summary="@string/settings_file_paths_summary"
+		 android:title="@string/settings_file_paths_title">
+	</header>
+</preference-headers>

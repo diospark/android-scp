@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ua.stu.view.scpview.DrawGraphPaper
+        android:id="@+id/DrawGraphPaper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+     <ua.stu.view.scpview.GraphicView
+         android:id="@+id/GraphicView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginLeft="70dp"
+         android:layout_marginTop="30dp" />
+ 
+    <ua.stu.view.scpview.DrawChanels
+        android:id="@+id/drawChanels"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/StatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColorHint="@android:color/black"
+        android:textSize="25sp" />
+
+    <it.sephiroth.demo.slider.widget.MultiDirectionSlidingDrawer
+        xmlns:my="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/slider_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        my:content="@+id/slider_content"
+        my:direction="bottomToTop"
+        my:handle="@+id/handle" >
+
+        <include
+            android:id="@id/slider_content"
+            layout="@layout/slider_content" />
+
+        <ImageView
+            android:id="@id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </it.sephiroth.demo.slider.widget.MultiDirectionSlidingDrawer>
+
+</RelativeLayout>
